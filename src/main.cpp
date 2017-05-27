@@ -17,7 +17,7 @@ int main()
 			continue;
 		}
 
-		double pi = atan(1) * 4;
+		const double pi = atan(1) * 4;
 		std::cout << std::setprecision(precision);
 		std::cout << "PI: " << pi;
 		break;
